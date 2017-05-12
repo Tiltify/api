@@ -31,6 +31,3 @@
 * [/teams/:id](/endpoints/campaigns.md)
 * [/users](/endpoints/campaigns.md)
 * [/users/:id](/endpoints/campaigns.md)
-
-### Errors
-* [404](/errors/404.md)
