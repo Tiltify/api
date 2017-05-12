@@ -2,6 +2,16 @@
   "gitbook": "3.2.2",
   "title": "Tiltify API V3 Documentation",
   "root": "docs",
-  "plugins": [],
-  "pluginsConfig": {}
+  "styles": {
+    "website": "./style.css"
+  },
+  "plugins": [
+    "-sharing",
+    "github"
+  ],
+  "pluginsConfig": {
+    "github": {
+        "url": "https://github.com/tiltify/api"
+    }
+  }
 }
