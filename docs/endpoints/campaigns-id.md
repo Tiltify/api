@@ -35,18 +35,31 @@ curl https://tiltify.com/api/v3/campaigns/42
 ```
 
 {% sample lang="js" %}
-```ruby
-const campaign = await Tiltify.Campaign.get(42)
+```js
+try {
+  const campaign = await Tiltify.Campaign.get(42)
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
 ```
 
 {% sample lang="ruby" %}
 ```ruby
-campaign = Tiltify::Campaign.get(42)
+begin
+  campaign = Tiltify::Campaign.get(42)
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
 ```
 
 {% sample lang="elixir" %}
 ```elixir
-campaign = Tiltify.Campaign.get(42)
+case Tiltify.Campaign.get(42) do
+  {:ok, campaign} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
 ```
 
 {% endmethod %}
@@ -65,18 +78,74 @@ curl https://tiltify.com/api/v3/campaigns/campaign-slug
 ```
 
 {% sample lang="js" %}
-```ruby
-const campaign = await Tiltify.Campaign.get('campaign-slug')
+```js
+try {
+  const campaign = await Tiltify.Campaign.get('campaign-slug')
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
 ```
 
 {% sample lang="ruby" %}
 ```ruby
-campaign = Tiltify::Campaign.get('campaign-slug')
+begin
+  campaign = Tiltify::Campaign.get('campaign-slug')
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
 ```
 
 {% sample lang="elixir" %}
 ```elixir
-campaign = Tiltify.Campaign.get("campaign-slug")
+case Tiltify.Campaign.get("campaign-slug") do
+  {:ok, campaign} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
+```
+
+{% endmethod %}
+
+---
+
+{% method %}
+### GET /campaigns/campaign-slug
+Returns a single campaign entity with a slug of campaign-slug. Note that it
+will pull the first campaign found with this slug. This is typically not the
+expected result and you should instead pass a reference to a user
+
+{% sample lang="curl" %}
+```bash
+curl https://tiltify.com/api/v3/campaigns/campaign-slug
+```
+
+{% sample lang="js" %}
+```js
+try {
+  const campaign = await Tiltify.Campaign.get('campaign-slug')
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
+```
+
+{% sample lang="ruby" %}
+```ruby
+begin
+  campaign = Tiltify::Campaign.get('campaign-slug')
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
+```
+
+{% sample lang="elixir" %}
+```elixir
+case Tiltify.Campaign.get("campaign-slug") do
+  {:ok, campaign} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
 ```
 
 {% endmethod %}
@@ -94,18 +163,31 @@ curl https://tiltify.com/api/v3/campaigns/campaign-slug?username=ben
 ```
 
 {% sample lang="js" %}
-```ruby
-const campaign = await Tiltify.Campaign.get({ slug: 'campaign-slug', username: 'ben' })
+```js
+try {
+  const campaign = await Tiltify.Campaign.get({ slug: 'campaign-slug', username: 'ben' })
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
 ```
 
 {% sample lang="ruby" %}
 ```ruby
-campaign = Tiltify::Campaign.get(slug: 'campaign-slug', username: 'ben')
+begin
+  campaign = Tiltify::Campaign.get(slug: 'campaign-slug', username: 'ben')
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
 ```
 
 {% sample lang="elixir" %}
 ```elixir
-campaign = Tiltify.Campaign.get(slug: "campaign-slug", username: "ben")
+case Tiltify.Campaign.get(slug: "campaign-slug", username: "ben") do
+  {:ok, campaign} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
 ```
 
 {% endmethod %}
@@ -123,18 +205,31 @@ curl https://tiltify.com/api/v3/campaigns/campaign-slug?userId=37
 ```
 
 {% sample lang="js" %}
-```ruby
-const campaign = await Tiltify.Campaign.get({ slug: 'campaign-slug', userId: 37 })
+```js
+try {
+  const campaign = await Tiltify.Campaign.get({ slug: 'campaign-slug', userId: 37 })
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
 ```
 
 {% sample lang="ruby" %}
 ```ruby
-campaign = Tiltify::Campaign.get(slug: 'campaign-slug', user_id: 37)
+begin
+  campaign = Tiltify::Campaign.get(slug: 'campaign-slug', user_id: 37)
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
 ```
 
 {% sample lang="elixir" %}
 ```elixir
-campaign = Tiltify.Campaign.get(slug: "campaign-slug", user_id: 37)
+case Tiltify.Campaign.get(slug: "campaign-slug", user_id: 37) do
+  {:ok, campaign} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
 ```
 
 {% endmethod %}
