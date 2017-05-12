@@ -1,7 +1,9 @@
-# Summary
-
+### Introduction
 * [Introduction](README.md)
-* [Authorization](README.md)
+
+### Topics
+* [Authentication](/topics/authentication.md)
+* [Errors](/topics/errors.md)
 
 ### Entities
 * [cause](/entities/cause.md)
