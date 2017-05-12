@@ -13,10 +13,6 @@
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/tiltify/api"
-    },
-    "theme-api": {
-      "languages": [
-      ]
     }
   }
 }
