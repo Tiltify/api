@@ -15,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "gitbook-cli": "^2.3.0",
-    "gitbook-plugin-github": "^2.0.0"
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-theme-api": "^1.1.2"
   }
 }

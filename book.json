@@ -7,11 +7,16 @@
   },
   "plugins": [
     "-sharing",
-    "github"
+    "github",
+    "theme-api"
   ],
   "pluginsConfig": {
     "github": {
-        "url": "https://github.com/tiltify/api"
+      "url": "https://github.com/tiltify/api"
+    },
+    "theme-api": {
+      "languages": [
+      ]
     }
   }
 }
