@@ -7,7 +7,7 @@ Retreives a single campaign given an identifier.
   "id": 1,
   "name": "My Awesome Campaign",
   "slug": "my-awesome-campaign",
-  "url": "/@username/my-awesome-campaign",
+  "url": "https://tiltify.com/@username/my-awesome-campaign",
   "description": "My awesome weekend campaign.",
   "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "causeId": 17,
