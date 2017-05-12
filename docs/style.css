@@ -1,3 +1,7 @@
 .gitbook-link {
   display: none !important;
 }
+
+code.lang-json {
+  white-space: pre-wrap !important;
+}
