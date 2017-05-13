@@ -5,3 +5,18 @@
 code.lang-json {
   white-space: pre-wrap !important;
 }
+
+.book-summary {
+  left: -350px;
+  width: 350px;
+}
+
+@media (min-width: 600px) {
+  .book.with-summary .book-body {
+    left: 350px;
+  }
+}
+
+.book-with-summary .book-header {
+  left: 350px;
+}
