@@ -2,6 +2,7 @@
 * [Introduction](README.md)
 * [Authentication](/topics/authentication.md)
 * [Errors](/topics/errors.md)
+* [Pagination](/topics/pagination.md)
 
 ### Resources
 * [Campaigns](/entities/campaign.md)
