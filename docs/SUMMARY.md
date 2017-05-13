@@ -15,6 +15,7 @@
   * [/causes/:id/campaigns](/endpoints/causes-id-campaigns.md)
   * [/causes/:id/donations](/endpoints/causes-id-donations.md)
   * [/causes/:id/leaderboards](/endpoints/causes-id-leaderboards.md)
+  * [/causes/:id/visibility-options](/endpoints/causes-id-visibility-options.md)
 * [Fundraising Events](/entities/fundraising-event.md)
   * [/fundraising-events](/endpoints/fundraising-events.md)
   * [/fundraising-events/:id](/endpoints/fundraising-events-id.md)
