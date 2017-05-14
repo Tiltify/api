@@ -8,6 +8,7 @@ A cause is something.
   "name": "St. Jude Children's Research Hospital",
   "slug": "stjude",
   "url": "https://stjude.tiltify.com",
+  "currency": "USD",
   "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
   "video": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "image": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
@@ -15,7 +16,6 @@ A cause is something.
   "logo": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "bannerSrc": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "bannerAlt": "some text describing the banner",
-  "currency": "USD",
   "bannerTitle": "St. Jude Children's Research Hospital",
   "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
 }
@@ -25,20 +25,17 @@ A cause is something.
 
 |key|description|
 |:---|:---|
-|**id**<br>integer| This is the id of the event. It is a unique identifier that can be used to always find the event. It will never change.
-|**name**<br>string| The name of the campaign.
-|**slug**<br>string| The url slug used to route to the campaign. These are unique for each user or team.
-|**url**<br>string| An absolute url that will take you to the campaign page.
-|**description**<br>md-string| The description of the campaign in markdown format. We suport basic markdown functionality, so any common markdown should work.
-|**thumbnail**<br>string| The absolute url of the thumbnail used to identify the campaign
-|**causeId**<br>integer| A reference to the cause that this campaign supports. All campaigns support a cause.
-|**userId**<br>integer| A reference to the user who created this campaign.
-|**teamId**<br>integer| A reference to the team if the campaign is a team campaign. Will be `null` if the campaign is not a team campaign.
-|**fundraisingEventId**<br>integer| A reference to the fundraising event if the campaign is raising money for a fundraising event. Will be `null` if it is not supporting a fundraising event.
-|**currency**<br>string| The currency code to describe all amount of money under this campaign. This is an ISO 4217 currency code.
-|**goal**<br>float| The current goal for the event.
-|**originalGoal**<br>float| The original goal for the event if it has been changed.
-|**amountRaised**<br>float| The amount of money raised by this campaign.
-|**totalAmountRaised**<br>float| The amount of money raised by this campaign and all supporting campaigns for this campaign. If there are no supporting campaigns, this number is the same as the amountRaised.
-|**startsOn**<br>date| The date of when the campaign starts. An ISO 8601 formatted date.
-|**endsOn**<br>date| The date of when the campaign ends. An ISO 8601 formatted date.
+|**id**<br>integer| This is the id of the cause. It is a unique identifier that can be used to always find the cause. It will never change.
+|**name**<br>string| The name of the cause.
+|**slug**<br>string| The url slug used to route to the cause. These are unique for each cause
+|**url**<br>string| An absolute url that will take you to the cause page. This may be on a subdomain.
+|**currency**<br>string| The currency code to describe all amount of money under this cause. This is an ISO 4217 currency code.
+|**about**<br>md-string| A short few paragraphs about the cause.
+|**video**<br>string| The absolute url of the video used in the "about cause" section.
+|**image**<br>string| The absolute url of the image used in the "about cause" section.
+|**avatar**<br>string| The absolute url of the thumbnail used to identify the cause. This is square.
+|**logo**<br>string| The absolute url of the logo used to identify the cause.
+|**bannerSrc**<br>string| The absolute url of the banner used on the cause page.
+|**bannerAlt**<br>string| An image description for the banner.
+|**bannerTitle**<br>string| The title in the banner of the cause page.
+|**bannerIntro**<br>string| The short intro paragraph in the banner of the cause page.
