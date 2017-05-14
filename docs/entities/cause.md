@@ -26,17 +26,6 @@ A cause is something.
     "instagram": "stjude",
     "snapchat": "stjude",
   },
-  "visibility_options": {
-    "team_leaderboard": {
-      "visible": true
-    },
-    "individual_leaderboard": {
-      "visible": true
-    },
-    "donate": {
-      "visible": true
-    }
-  },
   "legal": {
     "name": "ST JUDE CHILDRENS RESEARCH HOSPITAL INC",
     "copyright": "© Copyright 2017. St. Jude Children's Research Hospital, a not-for-profit, section 501 (c)(3) corporation.",
