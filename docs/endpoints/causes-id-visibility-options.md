@@ -73,7 +73,7 @@ id of 35.
 {% sample lang="curl" %}
 ```bash
 curl -X PATCH \
-  -H 'Content-Type: application.json' \
+  -H 'Content-Type: application/json' \
   -d '{"donate": { "visible": false }}' \
   https://tiltify.com/api/v3/causes/35/visibility-options
 ```
