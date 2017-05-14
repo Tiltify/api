@@ -9,7 +9,6 @@ A cause is something.
   "slug": "stjude",
   "url": "https://stjude.tiltify.com",
   "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
-  "contactEmail": "playlive@stjude.com",
   "video": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "image": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
   "avatar": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
@@ -18,29 +17,7 @@ A cause is something.
   "bannerAlt": "some text describing the banner",
   "currency": "USD",
   "bannerTitle": "St. Jude Children's Research Hospital",
-  "bannerIntro": "Start a fundraising campaign to help us end childhood cancer.",
-  "social": {
-    "twitter": "stjude",
-    "youtube": "stjude",
-    "facebook": "stjude",
-    "instagram": "stjude",
-    "snapchat": "stjude",
-  },
-  "legal": {
-    "name": "ST JUDE CHILDRENS RESEARCH HOSPITAL INC",
-    "copyright": "© Copyright 2017. St. Jude Children's Research Hospital, a not-for-profit, section 501 (c)(3) corporation.",
-    "coppa": "https://example.com/coppa",
-    "privacy": "https://example.com/privacy-policy",
-    "terms": "https://example.com/terms-and-conditions"
-  },
-  "address": {
-    "address_line_1": "262 DANNY THOMAS PL MSC 512",
-    "address_line_2": "",
-    "city": "MEMPHIS",
-    "region": "TN",
-    "postal_code": "38105-3678",
-    "country": "US"
-  }
+  "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
 }
 ```
 
