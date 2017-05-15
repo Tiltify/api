@@ -32,8 +32,8 @@ Retrieves the fundraising events for a cause
 ## Examples
 
 {% method %}
-### GET /causes/35/campaigns
-Returns the campaigns for the cause with an ID of 35.
+### GET /causes/35/fundraising-events
+Returns the fundraising events for the cause with an ID of 35.
 
 {% sample lang="curl" %}
 ```bash
