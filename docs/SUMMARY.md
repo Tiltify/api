@@ -27,6 +27,8 @@
   * [/fundraising-events/:id/leaderboards](/endpoints/fundraising-events-id-leaderboards.md)
   * [/fundraising-events/:id/registrations](/endpoints/fundraising-events-id-registrations.md)
   * [/fundraising-events/:id/registration-fields](/endpoints/fundraising-events-id-registration-fields.md)
+  * [/fundraising-events/:id/schedule](/endpoints/fundraising-events-id-schedule.md)
+  * [/fundraising-events/:id/visibility-options](/endpoints/fundraising-events-id-visibility-options.md)
 * [Teams](/entities/teams.md)
   * [/teams](/endpoints/teams.md)
   * [/teams/:id](/endpoints/teams-id.md)
