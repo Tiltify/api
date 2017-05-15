@@ -6,7 +6,7 @@ website. These options also disable features in the API such as whether or not
 a user can donate directly to a cause, or whether the leaderboards are
 publically available.
 
-```json
+```js
 {
   "donate": {
     "visible": true

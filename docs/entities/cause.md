@@ -2,7 +2,7 @@
 
 A cause is something.
 
-```json
+```js
 {
   "id": 35,
   "name": "St. Jude Children's Research Hospital",

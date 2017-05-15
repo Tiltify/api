@@ -2,7 +2,7 @@
 
 A campaign is the event you create to fundraise for your favorite cause.
 
-```json
+```js
 {
   "id": 1,
   "name": "My Awesome Campaign",

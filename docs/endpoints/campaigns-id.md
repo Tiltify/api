@@ -2,7 +2,7 @@
 
 Retreives a single campaign given an identifier.
 
-```json
+```js
 {
   "id": 1,
   "name": "My Awesome Campaign",
