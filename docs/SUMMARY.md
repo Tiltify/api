@@ -29,7 +29,7 @@
   * [/fundraising-events/:id/registration-fields](/endpoints/fundraising-events-id-registration-fields.md)
   * [/fundraising-events/:id/schedule](/endpoints/fundraising-events-id-schedule.md)
   * [/fundraising-events/:id/visibility-options](/endpoints/fundraising-events-id-visibility-options.md)
-* [Teams](/entities/teams.md)
+* [Teams](/entities/team.md)
   * [/teams](/endpoints/teams.md)
   * [/teams/:id](/endpoints/teams-id.md)
   * [/teams/:id/campaigns](/endpoints/teams-id-campaigns.md)
