@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gitbook serve"
+    "start": "gitbook serve",
+    "docs:build": "rm -rf _book && gitbook build",
+    "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:tiltify/api gh-pages --force"
   },
   "keywords": [],
   "author": "Tiltify <dev@tiltify.com> (https://tiltify.com/)",

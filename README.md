@@ -9,3 +9,5 @@ anything for your stream.
 yarn install
 npm start
 ```
+
+To publish to Github Pages, run ```npm run docs:publish```
