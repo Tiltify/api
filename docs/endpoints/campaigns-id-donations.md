@@ -30,7 +30,7 @@ Retrieves the most recent donations for a campaign in descending order
 
 {% method %}
 ### GET /campaigns/42/donations
-Returns a list of donations entities with the campaign ID of 42 in decending order.
+Returns a list of donation entities with the campaign ID of 42 in decending order.
 
 {% sample lang="curl" %}
 ```bash

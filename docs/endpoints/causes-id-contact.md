@@ -11,10 +11,6 @@ Retrieves the publically available contact information for a cause.
   "facebook": "tiltify",
   "instagram": "tiltify",
   "snapchat": "tiltify",
-  "copyright": "© Copyright 2017. Good Cuase, a not-for-profit, section 501 (c)(3) corporation.",
-  "coppa": "https://example.com/coppa",
-  "privacy": "https://example.com/privacy-policy",
-  "terms": "https://example.com/terms-and-conditions"
   "address": {
     "addressLine1": "123 Some St",
     "addressLine2": "",
