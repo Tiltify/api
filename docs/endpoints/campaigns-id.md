@@ -1,6 +1,6 @@
 # GET /campaigns/:id
 
-Retreives a single campaign given an identifier.
+Retrieves a single campaign given an identifier.
 
 ```js
 {
