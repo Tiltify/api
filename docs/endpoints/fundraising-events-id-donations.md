@@ -1,6 +1,6 @@
-# GET /campaigns/:id/donations
+# GET /fundraising-events/:id/donations
 
-Retrieves the most recent donations for a campaign in descending order
+Authenticated and paginated endpoint to retrieve the donations for a fundraising-event.
 
 ```js
 {
@@ -30,19 +30,19 @@ Retrieves the most recent donations for a campaign in descending order
 ## Examples
 
 {% method %}
-### GET /campaigns/42/donations
-Returns a list of donation entities with the campaign ID of 42 in decending order.
+### GET /fundraising-events/35/donations
+Returns the donations for the fundraising event with an ID of 35.
 
 {% sample lang="curl" %}
 ```bash
-curl https://tiltify.com/api/v3/campaigns/42/donations
+curl https://tiltify.com/api/v3/fundraising-events/35/donations
 ```
 
 {% sample lang="js" %}
 ```js
 try {
-  const campaign = await Tiltify.Campaign.get_donations(42)
-  // do something with the campaign
+  const donations = await Tiltify.FundraisingEvent.donations(35)
+  // do something with the donations
 } catch(error) {
   // handle error
 }
@@ -51,8 +51,8 @@ try {
 {% sample lang="ruby" %}
 ```ruby
 begin
-  campaign = Tiltify::Campaign.get_donations(42)
-  # do something with the campaign
+  donations = Tiltify::FundraisingEvent.donations(35)
+  # do something with the donations
 rescue Exception => error
   # handle error
 end
@@ -60,8 +60,8 @@ end
 
 {% sample lang="elixir" %}
 ```elixir
-case Tiltify.Campaign.get_donations(42) do
-  {:ok, campaign} -> # do something with the campaign
+case Tiltify.FundraisingEvent.donations(35) do
+  {:ok, donations} -> # do something with the donations
   {:error, error} -> # handle error
 end
 ```

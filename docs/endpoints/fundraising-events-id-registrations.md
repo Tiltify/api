@@ -4,25 +4,30 @@ This is an authorization required endpoint which returns the registrations made
 to a specific fundraising event.
 
 ```js
-[
-  {
-    "id": 4,
-    "userId": 9444,
-    "email": "dev@tiltify.com",
-    "subscribed": true,
-    "registeredAt": "2017-04-07T12:10:16.364-04:00",
-    "address": {
-      "addressLine1": "123 Over there",
-      "addressLine2": "#123",
-      "city": "Houston",
-      "state": "TX",
-      "postalCode": "12345",
-    },
-    "shirtSize": "M",
-    "serviceHours": false
+{
+  "meta": {
+    "status": 200
   },
-  // ... additional registrations
-]
+  "data": [
+    {
+      "id": 4,
+      "userId": 9444,
+      "email": "dev@tiltify.com",
+      "subscribed": true,
+      "registeredAt": "2017-04-07T12:10:16.364-04:00",
+      "address": {
+        "addressLine1": "123 Over there",
+        "addressLine2": "#123",
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "12345",
+      },
+      "shirtSize": "M",
+      "serviceHours": false
+    },
+    // ...
+  ]
+}
 ```
 
 ## Examples

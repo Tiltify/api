@@ -3,22 +3,28 @@
 Authenticated and paginated endpoint to retrieve the donations for a cause.
 
 ```js
-[
-  {
-    "id": 1,
-    "amount": 5.0,
-    "name": "Tiltify Devs",
-    "email": "dev@tiltify.ccom",
-    "method": "paypal",
-    "transactionId": "2CH1234123412341234",
-    "donatedAt": "2017-04-01T00:00:00+00:00",
-    "donatableId": 123,
-    "causeId": 42,
-    "userId": null,
-    "donatableType": "Campaign"
+{
+  "meta": {
+    "status": 200
   },
-  // ...
-]
+  "data": [
+    {
+      "id": 21347,
+      "amount": 556.0,
+      "name": "Yoda",
+      "donorComment": "Judge me by my size, do you?",
+      "createdAt": 1490328000000
+    },
+    // ...
+  ],
+  "links": {
+    "prev": "",
+    "next": "",
+    "self": "",
+    "first": "",
+    "last": "",
+  }
+}
 ```
 
 ## Examples

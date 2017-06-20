@@ -4,14 +4,19 @@ Returns an object describing the registration fields for a fundraising event.
 
 ```js
 {
-  "address": {
-    "enabled": true
+  "meta": {
+    "status": 200
   },
-  "shirt_size": {
-    "enabled": true
-  },
-  "service_hours": {
-    "enabled": true
+  "data": {
+    "address": {
+      "enabled": true
+    },
+    "shirt_size": {
+      "enabled": true
+    },
+    "service_hours": {
+      "enabled": true
+    }
   }
 }
 ```

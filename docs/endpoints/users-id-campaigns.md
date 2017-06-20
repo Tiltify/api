@@ -1,6 +1,6 @@
-# GET /causes/:id/campaigns
+# GET /users/:id/campaigns
 
-Retrieves the campaigns which support a cause.
+Retrieves a list of a users campaigns.
 
 ```js
 {
@@ -15,7 +15,7 @@ Retrieves the campaigns which support a cause.
       "description": "My awesome weekend campaign.\n Save the kids.",
       "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
       "causeId": 17,
-      "userId": 14,
+      "userId": 35,
       "teamId": null,
       "fundraisingEventId": 39,
       "currency": "USD",
@@ -41,18 +41,18 @@ Retrieves the campaigns which support a cause.
 ## Examples
 
 {% method %}
-### GET /causes/35/campaigns
-Returns the campaigns for the cause with an ID of 35.
+### GET /users/35/campaigns
+Retrieves a list of a users campaigns with a user ID of 35.
 
 {% sample lang="curl" %}
 ```bash
-curl https://tiltify.com/api/v3/causes/35/campaigns
+curl https://tiltify.com/api/v3/users/35/campaigns
 ```
 
 {% sample lang="js" %}
 ```js
 try {
-  const campaigns = await Tiltify.Cause.campaigns(35)
+  const campaigns = await Tiltify.User.campaigns(35)
   // do something with the campaigns
 } catch(error) {
   // handle error
@@ -62,7 +62,7 @@ try {
 {% sample lang="ruby" %}
 ```ruby
 begin
-  campaigns = Tiltify::Cause.campaigns(35)
+  campaigns = Tiltify::User.campaigns(35)
   # do something with the campaigns
 rescue Exception => error
   # handle error
@@ -71,7 +71,7 @@ end
 
 {% sample lang="elixir" %}
 ```elixir
-case Tiltify.Cause.campaigns(35) do
+case Tiltify.User.campaigns(35) do
   {:ok, campaigns} -> # do something with the campaigns
   {:error, error} -> # handle error
 end

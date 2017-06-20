@@ -4,22 +4,27 @@ Retrieves a single campaign given an identifier.
 
 ```js
 {
-  "id": 1,
-  "name": "My Awesome Campaign",
-  "slug": "my-awesome-campaign",
-  "url": "https://tiltify.com/@username/my-awesome-campaign",
-  "description": "My awesome weekend campaign.",
-  "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "causeId": 17,
-  "userId": 14,
-  "teamId": null,
-  "fundraisingEventId": 39,
-  "goal": 10000,
-  "originalGoal": 5000,
-  "amountRaised": 8923,
-  "totalAmountRaised": 12325,
-  "startsOn": "2017-03-24",
-  "endsOn": "2017-03-26"
+  "meta": {
+    "status": 200
+  },
+  "data": {
+    "id": 1,
+    "name": "My Awesome Campaign",
+    "slug": "my-awesome-campaign",
+    "url": "https://tiltify.com/@username/my-awesome-campaign",
+    "description": "My awesome weekend campaign.",
+    "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "causeId": 17,
+    "userId": 14,
+    "teamId": null,
+    "fundraisingEventId": 39,
+    "goal": 10000,
+    "originalGoal": 5000,
+    "amountRaised": 8923,
+    "totalAmountRaised": 12325,
+    "startsOn": "2017-03-24",
+    "endsOn": "2017-03-26"
+  }
 }
 ```
 

@@ -4,20 +4,25 @@ Retreives a single cause given an identifier.
 
 ```js
 {
-  "id": 35,
-  "name": "St. Jude Children's Research Hospital",
-  "slug": "stjude",
-  "url": "https://stjude.tiltify.com",
-  "currency": "USD",
-  "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
-  "video": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "image": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "avatar": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "logo": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "bannerSrc": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-  "bannerAlt": "some text describing the banner",
-  "bannerTitle": "St. Jude Children's Research Hospital",
-  "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
+  "meta": {
+    "status": 200
+  },
+  "data": {
+    "id": 35,
+    "name": "St. Jude Children's Research Hospital",
+    "slug": "stjude",
+    "url": "https://stjude.tiltify.com",
+    "currency": "USD",
+    "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
+    "video": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "image": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "avatar": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "logo": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "bannerSrc": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "bannerAlt": "some text describing the banner",
+    "bannerTitle": "St. Jude Children's Research Hospital",
+    "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
+  }
 }
 ```
 
@@ -102,4 +107,3 @@ end
 ```
 
 {% endmethod %}
-

@@ -4,20 +4,25 @@ Retrieves the publically available contact information for a cause.
 
 ```js
 {
-  "legalName": "Good Cause Inc.",
-  "email": "dev@tiltify.com",
-  "twitter": "tiltify",
-  "youtube": "tiltify",
-  "facebook": "tiltify",
-  "instagram": "tiltify",
-  "snapchat": "tiltify",
-  "address": {
-    "addressLine1": "123 Some St",
-    "addressLine2": "",
-    "city": "Houston",
-    "region": "TX",
-    "postalCode": "77008",
-    "country": "US"
+  "meta": {
+    "status": 200
+  },
+  "data": {
+    "legalName": "Good Cause Inc.",
+    "email": "dev@tiltify.com",
+    "twitter": "tiltify",
+    "youtube": "tiltify",
+    "facebook": "tiltify",
+    "instagram": "tiltify",
+    "snapchat": "tiltify",
+    "address": {
+      "addressLine1": "123 Some St",
+      "addressLine2": "",
+      "city": "Houston",
+      "region": "TX",
+      "postalCode": "77008",
+      "country": "US"
+    }
   }
 }
 ```

@@ -86,3 +86,46 @@ end
 ```
 
 {% endmethod %}
+
+{% method %}
+### GET /campaigns?count=50
+Returns the last 50 campaign entities.
+
+{% sample lang="curl" %}
+```bash
+curl https://tiltify.com/api/v3/campaigns?count=50
+```
+
+{% sample lang="js" %}
+```js
+const options = {
+  count: 50
+}
+
+try {
+  const campaign = await Tiltify.Campaign.list(options)
+  // do something with the campaign
+} catch(error) {
+  // handle error
+}
+```
+
+{% sample lang="ruby" %}
+```ruby
+begin
+  campaign = Tiltify::Campaign.list(count: 50)
+  # do something with the campaign
+rescue Exception => error
+  # handle error
+end
+```
+
+{% sample lang="elixir" %}
+```elixir
+case Tiltify.Campaign.list(count: 50) do
+  {:ok, campaigns} -> # do something with the campaign
+  {:error, error} -> # handle error
+end
+```
+
+{% endmethod %}

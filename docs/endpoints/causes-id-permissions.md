@@ -1,0 +1,93 @@
+# /causes/:id/permissions
+
+**Authenication Required**
+
+Retrieves and updates the permissions for a cause. These options are
+used to determine the visibility of certain features on the administration
+interface of the website. These options also disable features in the API.
+
+```js
+{
+  "meta": {
+    "status": 200
+  },
+  "data": {
+    "activated": true,
+    "causeLeaderboard": false,
+    "dashboardEnabled": true,
+    "dashboardChart": true,
+    "fundraisingEventsEnabled": false,
+    "fundraisingEventsLeaderboard": false,
+    "fundraisingEventsIncentives": false,
+    "fundraisingEventsSchedule": false,
+    "fundraisingEventsReporting": false,
+    "fundraisingEventsReportingDonations": false,
+    "fundraisingEventsReportingCampaigns": false,
+    "fundraisingEventsReportingFundraisers": false,
+    "fundraisingEventsGeneralEnabled": false,
+    "fundraisingEventsGeneralDetails": false,
+    "fundraisingEventsGeneralColors": false,
+    "fundraisingEventsGeneralImages": false,
+    "fundraisingEventsRegistrationEnabled": false,
+    "fundraisingEventsVisibilityEnabled": false,
+    "fundraisingEventsVisibilityDetails": false,
+    "fundraisingEventsVisibilityLeaderboards": false,
+    "adminEnabled": true,
+    "adminGeneralEnabled": true,
+    "adminFinanceEnabled": true,
+    "adminBrandingEnabled": true,
+    "adminBrandingDetails": false,
+    "adminBrandingColors": false,
+    "adminBrandingImages": false,
+    "adminIntegrationsEnabled": false,
+    "adminVisibilityEnabled": false,
+    "adminApiEnabled": false,
+    "reportingEnabled": true,
+    "reportingDonations": true,
+    "reportingCampaigns": false,
+    "reportingFundraisers": false,
+    "reportingChart": false
+  }
+}
+```
+
+## Examples
+
+{% method %}
+### GET /causes/35/permissions
+Returns a list of permissions for cause with the ID of 42.
+
+{% sample lang="curl" %}
+```bash
+curl https://tiltify.com/api/v3/causes/35/permissions
+```
+
+{% sample lang="js" %}
+```js
+try {
+  const visibilityOptions = await Tiltify.Cause.permissions(35)
+  // do something with the permissions
+} catch(error) {
+  // handle error
+}
+```
+
+{% sample lang="ruby" %}
+```ruby
+begin
+  permissions = Tiltify::Cause.permissions(35)
+  # do something with the permissions
+rescue Exception => error
+  # handle error
+end
+```
+
+{% sample lang="elixir" %}
+```elixir
+case Tiltify.Cause.permissions(35) do
+  {:ok, permissions} -> # do something with the permissions
+  {:error, error} -> # handle error
+end
+```
+
+{% endmethod %}

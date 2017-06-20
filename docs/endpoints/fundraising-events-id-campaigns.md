@@ -1,6 +1,6 @@
-# GET /causes/:id/campaigns
+# GET /fundraising-events/:id/campaigns
 
-Retrieves the campaigns which support a cause.
+Retrieves the campaigns which support a fundraising event.
 
 ```js
 {
@@ -41,18 +41,18 @@ Retrieves the campaigns which support a cause.
 ## Examples
 
 {% method %}
-### GET /causes/35/campaigns
-Returns the campaigns for the cause with an ID of 35.
+### GET /fundraising-events/35/campaigns
+Returns the campaigns for the fundraising event with an ID of 35.
 
 {% sample lang="curl" %}
 ```bash
-curl https://tiltify.com/api/v3/causes/35/campaigns
+curl https://tiltify.com/api/v3/fundraising-events/35/campaigns
 ```
 
 {% sample lang="js" %}
 ```js
 try {
-  const campaigns = await Tiltify.Cause.campaigns(35)
+  const campaigns = await Tiltify.FundraisingEvent.campaigns(35)
   // do something with the campaigns
 } catch(error) {
   // handle error
@@ -62,7 +62,7 @@ try {
 {% sample lang="ruby" %}
 ```ruby
 begin
-  campaigns = Tiltify::Cause.campaigns(35)
+  campaigns = Tiltify::FundraisingEvent.campaigns(35)
   # do something with the campaigns
 rescue Exception => error
   # handle error
@@ -71,7 +71,7 @@ end
 
 {% sample lang="elixir" %}
 ```elixir
-case Tiltify.Cause.campaigns(35) do
+case Tiltify.FundraisingEvent.campaigns(35) do
   {:ok, campaigns} -> # do something with the campaigns
   {:error, error} -> # handle error
 end

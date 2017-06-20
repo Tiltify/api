@@ -1,7 +1,7 @@
-# GET /causes/:id/leaderboards
+# GET /fundraising-events/:id/leaderboards
 
-If the cause has allowed global leaderboards to be visible this endpoint will
-return said leaderboards with up to 25 entries per.
+If the cause has allowed fundraising event leaderboards to be visible
+this endpoint will return said leaderboards with up to 25 entries per.
 
 ```js
 
@@ -35,18 +35,18 @@ return said leaderboards with up to 25 entries per.
 ## Examples
 
 {% method %}
-### GET /causes/35/leaderboards
-Returns a single campaign entity with the ID of 42.
+### GET /fundraising-events/35/leaderboards
+Returns a list of leaderboards with the fundraising event ID of 35.
 
 {% sample lang="curl" %}
 ```bash
-curl https://tiltify.com/api/v3/causes/35/leaderboards
+curl https://tiltify.com/api/v3/fundraising-events/35/leaderboards
 ```
 
 {% sample lang="js" %}
 ```js
 try {
-  const leaderboards = await Tiltify.Cause.leaderboards(35)
+  const leaderboards = await Tiltify.FundraisingEvents.leaderboards(35)
   // do something with the leaderboards
 } catch(error) {
   // handle error
@@ -56,7 +56,7 @@ try {
 {% sample lang="ruby" %}
 ```ruby
 begin
-  leaderboards = Tiltify::Cause.leaderboards(35)
+  leaderboards = Tiltify::FundraisingEvents.leaderboards(35)
   # do something with the leaderboards
 rescue Exception => error
   # handle error
@@ -65,7 +65,7 @@ end
 
 {% sample lang="elixir" %}
 ```elixir
-case Tiltify.Cause.leaderboards(35) do
+case Tiltify.FundraisingEvents.leaderboards(35) do
   {:ok, leaderboards} -> # do something with the leaderboards
   {:error, error} -> # handle error
 end
