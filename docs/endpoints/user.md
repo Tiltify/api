@@ -33,7 +33,7 @@ curl https://tiltify.com/api/v3/user
 ```js
 try {
   const user = await Tiltify.User.current()
-  // do something with the users
+  // do something with the user
 } catch(error) {
   // handle error
 }
