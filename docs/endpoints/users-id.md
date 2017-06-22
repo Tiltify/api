@@ -11,7 +11,12 @@ Retrieves a specific user by ID.
     "id": 3,
     "username": "TiltifyUser",
     "slug": "tiltify-user",
-    "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+    "thumbnail": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "synthesize distributed solutions",
+      "width": 200,
+      "height": 200
+    },
     "status": "completed"
   }
 }

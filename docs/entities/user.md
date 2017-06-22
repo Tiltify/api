@@ -8,7 +8,12 @@ A user is a member of the site.
   "username": "TiltifyUser",
   "slug": "@tiltify-user",
   "url": "https://tiltify.com/@tiltify-user"
-  "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+  "thumbnail": {
+    "src": "https://asdf.cloudfront.net/asdf.jpg",
+    "alt": "synthesize distributed solutions",
+    "width": 200,
+    "height": 200
+  },
   "status": "completed"
 }
 ```

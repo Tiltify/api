@@ -14,16 +14,40 @@ Returns a list of causes on Tiltify. This is a paginated endpoint.
       "name": "Hickle, Emard and Keeling Cause",
       "legalName": "Hickle, Emard and Keeling Charity",
       "about": "Food truck artisan scenester migas health authentic williamsburg. Chillwave pinterest thundercats retro yolo. Sartorial thundercats five dollar toast venmo pbr&b. Asymmetrical microdosing bicycle rights.",
-      "image": "/uploads/cause/image/3/_text.jpeg",
-      "video": null,
-      "avatar": "/uploads/cause/avatar/3/_text.jpeg",
-      "logo": "",
-      "banner": "/uploads/cause/banner/3/_text.jpeg",
+      "video": {
+        "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "alt": "synthesize distributed solutions",
+        "width": 640,
+        "height": 360
+      },
+      "image": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 640,
+        "height": 360
+      },
+      "avatar": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 64,
+        "height": 64
+      },
+      "logo": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 64,
+        "height": 100
+      },
+      "banner": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 530,
+        "height": 1440
+      },
       "contactEmail": "francesca.goldner@ortizerdman.co",
       "paypalEmail": "test@cause.com",
       "paypalCurrencyCode": "USD",
       "totalAmountRaised": 76154,
-      "imageCaption": "synthesize distributed solutions",
       "social": {},
       "settings": {
         "colors": {

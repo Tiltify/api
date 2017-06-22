@@ -14,12 +14,36 @@ Retreives a single cause given an identifier.
     "url": "https://stjude.tiltify.com",
     "currency": "USD",
     "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
-    "video": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-    "image": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-    "avatar": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-    "logo": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-    "bannerSrc": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
-    "bannerAlt": "some text describing the banner",
+    "video": {
+      "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "alt": "synthesize distributed solutions",
+      "width": 640,
+      "height": 360
+    },
+    "image": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "synthesize distributed solutions",
+      "width": 640,
+      "height": 360
+    },
+    "avatar": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "synthesize distributed solutions",
+      "width": 64,
+      "height": 64
+    },
+    "logo": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "synthesize distributed solutions",
+      "width": 64,
+      "height": 100
+    },
+    "banner": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "synthesize distributed solutions",
+      "width": 530,
+      "height": 1440
+    },
     "bannerTitle": "St. Jude Children's Research Hospital",
     "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
   }

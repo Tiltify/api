@@ -13,7 +13,12 @@ Retrieves the campaigns which are part of a team.
       "slug": "my-awesome-campaign",
       "url": "https://tiltify.com/@username/my-awesome-campaign",
       "description": "My awesome weekend campaign.\n Save the kids.",
-      "thumbnail": "https://asdfasdfasdf.cloudfront.net/1234.jpg",
+      "thumbnail": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 200,
+        "height": 200
+      },
       "causeId": 17,
       "userId": 14,
       "teamId": 35,
