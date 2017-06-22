@@ -12,7 +12,12 @@ Endpoint to retrieve the incentives for a fundraising event.
       "id": 1,
       "title": "A Special Incentive for the streamers",
       "description": "Chillwave pork belly try-hard ennui organic chia. Occupy polaroid seitan brunch master cardigan tote bag tofu. Shabby chic kale chips pop-up thundercats beard.",
-      "image": "",
+      "image": {
+        "src": "https://asdf.cloudfront.net/asdf.jpg",
+        "alt": "synthesize distributed solutions",
+        "width": 200,
+        "height": 200
+      },
       "createdAt": 149511973000
     },
     // ...
