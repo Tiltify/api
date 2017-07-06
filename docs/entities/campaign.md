@@ -37,7 +37,7 @@ A campaign is the event you create to fundraise for your favorite cause.
 |**name**<br>string| The name of the campaign.
 |**slug**<br>string| The url slug used to route to the campaign. These are unique for each user or team.
 |**url**<br>string| An absolute url that will take you to the campaign page.
-|**description**<br>md-string| The description of the campaign in markdown format. We suport basic markdown functionality, so any common markdown should work.
+|**description**<br>md-string| The description of the campaign in markdown format. We support basic markdown functionality, so any common markdown should work.
 |**thumbnail**<br>string| The absolute url of the thumbnail used to identify the campaign
 |**causeId**<br>integer| A reference to the cause that this campaign supports. All campaigns support a cause.
 |**userId**<br>integer| A reference to the user who created this campaign.

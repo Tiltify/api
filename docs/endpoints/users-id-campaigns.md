@@ -25,6 +25,7 @@ Retrieves a list of a users campaigns.
       "fundraisingEventId": 39,
       "currency": "USD",
       "goal": 10000,
+      "supportingCampaignId": 81,
       "originalGoal": 5000,
       "amountRaised": 8923,
       "totalAmountRaised": 12325,
