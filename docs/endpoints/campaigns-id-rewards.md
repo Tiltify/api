@@ -1,6 +1,6 @@
 # GET /campaigns/:id/rewards
 
-Retrieves the most recent rewards for a campaign in ascending order by amount.
+Retrieves the rewards for a campaign.
 
 ```js
 {
@@ -34,14 +34,7 @@ Retrieves the most recent rewards for a campaign in ascending order by amount.
     {
       // ...
     }
-  ],
-  "links": {
-    "prev": "",
-    "next": "",
-    "self": "",
-    "first": "",
-    "last": "",
-  }
+  ]
 }
 ```
 
@@ -49,7 +42,7 @@ Retrieves the most recent rewards for a campaign in ascending order by amount.
 
 {% method %}
 ### GET /campaigns/42/rewards
-Returns a list of rewards with the campaign ID of 42 in ascending order.
+Returns a list of rewards with the campaign ID of 42.
 
 {% sample lang="curl" %}
 ```bash
