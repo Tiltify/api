@@ -55,7 +55,7 @@ curl https://tiltify.com/api/v3/polls
 {% sample lang="js" %}
 ```js
 try {
-  const polls = await Tiltify.Polls.index()
+  const polls = await Tiltify.Poll.index()
   // do something with the polls
 } catch(error) {
   // handle error
@@ -65,7 +65,7 @@ try {
 {% sample lang="ruby" %}
 ```ruby
 begin
-  polls = Tiltify::Polls.index()
+  polls = Tiltify::Poll.index()
   # do something with the polls
 rescue Exception => error
   # handle error
@@ -74,7 +74,7 @@ end
 
 {% sample lang="elixir" %}
 ```elixir
-case Tiltify.Polls.index() do
+case Tiltify.Poll.index() do
   {:ok, polls} -> # do something with the polls
   {:error, error} -> # handle error
 end
