@@ -1,6 +1,6 @@
 # GET /campaigns/:id/rewards
 
-Retrieves the rewards for a campaign.
+Retrieves all [rewards](/entities/reward.md) for a campaign.
 
 ```js
 {
@@ -10,26 +10,26 @@ Retrieves the rewards for a campaign.
   "data": [
     {
       "id": 1,
-      "alwaysActive": true,
       "name": "Fingerstache vhs paleo tattooed echo cold-pressed.",
+      "description": "Chuck Norris can access the DB from the UI.",
       "amount": 43,
       "kind": "virtual",
       "quantity": null,
       "remaining": null,
       "fairMarketValue": 88,
-      "startsAt": null,
-      "endsAt": 1511264923000,
-      "description": "Chuck Norris can access the DB from the UI.",
+      "currency": "USD",
       "shippingAddressRequired": false,
       "shippingNote": null,
       "image": {
         "src": "",
         "alt": "Chuck Norris can access the DB from the UI.",
-        "width": 200,
-        "height": 200
+        "width": 270,
+        "height": 176
       },
-      "currency": "USD",
-      "createdAt": 1498169329000
+      "active": true,
+      "startsAt": 0,
+      "createdAt": 1498169329000,
+      "updatedAt": 1498249889000
     },
     {
       // ...
