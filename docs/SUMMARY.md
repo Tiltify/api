@@ -13,6 +13,7 @@
   * [/campaigns/:id/polls](/endpoints/campaigns-id-polls.md)
   * [/campaigns/:id/challenges](/endpoints/campaigns-id-challenges.md)
   * [/campaigns/:id/schedule](/endpoints/campaigns-id-schedule.md)
+  * [/campaigns/:id/supporting-campaigns](/endpoints/campaigns-id-supporting-campaigns.md)
 * [Causes](/entities/cause.md)
   * [/causes](/endpoints/causes.md)
   * [/causes/:id](/endpoints/causes-id.md)
