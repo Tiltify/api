@@ -8,24 +8,52 @@ A campaign is the event you create to fundraise for your favorite cause.
   "name": "My Awesome Campaign",
   "slug": "my-awesome-campaign",
   "url": "https://tiltify.com/@username/my-awesome-campaign",
-  "description": "My awesome weekend campaign.\n Save the kids.",
-  "thumbnail": {
+  "startsAt": 1493355600000,
+  "endsAt": 1496206800000,
+  "description": "My awesome weekend campaign.",
+  "avatar": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
+    "alt": "",
     "width": 200,
     "height": 200
   },
   "causeId": 17,
-  "userId": 14,
-  "teamId": null,
   "fundraisingEventId": 39,
-  "currency": "USD",
-  "goal": 10000,
-  "originalGoal": 5000,
-  "amountRaised": 8923,
-  "totalAmountRaised": 12325,
-  "startsOn": "2017-03-24",
-  "endsOn": "2017-03-26"
+  "fundraiserGoalAmount": 10000,
+  "originalGoalAmount": 5000,
+  "amountRaised": 3402.00,
+  "supportingAmountRaised": 8923.00,
+  "totalAmountRaised": 12325.00,
+  "supportable": true,
+  "status": "published",
+  "user": {
+    "id": 1,
+    "username": "UserName",
+    "slug": "username",
+    "url": "/@username",
+    "avatar": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "",
+      "width": 200,
+      "height": 200
+    }
+  },
+  "team": {
+    "id": 1,
+    "username": "Team Name",
+    "slug": "teamslug",
+    "url": "/+teamslug",
+    "avatar": {
+      "src": "https://asdf.cloudfront.net/asdf.jpg",
+      "alt": "",
+      "width": 200,
+      "height": 200
+    }
+  },
+  "livestream": {
+    "type": "twitch",
+    "channel": "tiltify"
+  }
 }
 ```
 
@@ -38,15 +66,17 @@ A campaign is the event you create to fundraise for your favorite cause.
 |**slug**<br>string| The url slug used to route to the campaign. These are unique for each user or team.
 |**url**<br>string| An absolute url that will take you to the campaign page.
 |**description**<br>md-string| The description of the campaign in markdown format. We support basic markdown functionality, so any common markdown should work.
-|**thumbnail**<br>string| The absolute url of the thumbnail used to identify the campaign
+|**avatar**<br>image| An object representing the image for this campaign. It will fall back when appropriate to the FE / cause avatars if one is not present. It is safe to always render this avatar to represent the campaign.
+|**supportable**<br>boolean| Whether or not this campaign is supportable.
 |**causeId**<br>integer| A reference to the cause that this campaign supports. All campaigns support a cause.
-|**userId**<br>integer| A reference to the user who created this campaign.
-|**teamId**<br>integer| A reference to the team if the campaign is a team campaign. Will be `null` if the campaign is not a team campaign.
 |**fundraisingEventId**<br>integer| A reference to the fundraising event if the campaign is raising money for a fundraising event. Will be `null` if it is not supporting a fundraising event.
-|**currency**<br>string| The currency code to describe all amount of money under this campaign. This is an ISO 4217 currency code.
-|**goal**<br>float| The current goal for the event.
-|**originalGoal**<br>float| The original goal for the event if it has been changed.
+|**originalFundraiserGoal**<br>float| The original goal for the campaign if it has been changed.
+|**fundraiserGoalAmount**<br>float| The current goal for the campaign.
 |**amountRaised**<br>float| The amount of money raised by this campaign.
-|**totalAmountRaised**<br>float| The amount of money raised by this campaign and all supporting campaigns for this campaign. If there are no supporting campaigns, this number is the same as the amountRaised.
-|**startsOn**<br>date| The date of when the campaign starts. An ISO 8601 formatted date.
-|**endsOn**<br>date| The date of when the campaign ends. An ISO 8601 formatted date.
+|**supportingAmountRaised**<br>float| The amount of money raised by supporting campaign.
+|**totalAmountRaised**<br>float| The amount of money raised by this campaign and all supporting campaigns for this campaign.
+|**startsAt**<br>date| The date of when the campaign starts.
+|**endsAt**<br>date| The date of when the campaign ends.
+|**livestream**<br>object| An object representing the current livestream for this campaign
+|**livestream.type**<br>string| Can be one of the following: twitch,youtube,smashcast,mixer,mlg,image
+|**livestream.channel**<br>string| The channel for the livestream
