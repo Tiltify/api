@@ -15,7 +15,6 @@
   * [/campaigns/:id/schedule](/endpoints/campaigns-id-schedule.md)
   * [/campaigns/:id/supporting-campaigns](/endpoints/campaigns-id-supporting-campaigns.md)
 * [Causes](/entities/cause.md)
-  * [/causes](/endpoints/causes.md)
   * [/causes/:id](/endpoints/causes-id.md)
   * [/causes/:id/campaigns](/endpoints/causes-id-campaigns.md)
   * [/causes/:id/contact](/endpoints/causes-id-contact.md)
