@@ -43,32 +43,4 @@ Returns a list of leaderboards with the fundraising event ID of 35.
 curl https://tiltify.com/api/v3/fundraising-events/35/leaderboards
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const leaderboards = await Tiltify.FundraisingEvents.leaderboards(35)
-  // do something with the leaderboards
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  leaderboards = Tiltify::FundraisingEvents.leaderboards(35)
-  # do something with the leaderboards
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvents.leaderboards(35) do
-  {:ok, leaderboards} -> # do something with the leaderboards
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

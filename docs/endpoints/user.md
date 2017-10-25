@@ -34,32 +34,4 @@ Returns the currently authenticated user.
 curl https://tiltify.com/api/v3/user
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const user = await Tiltify.User.current()
-  // do something with the user
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  user = Tiltify::User.current()
-  # do something with the user
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.User.current() do
-  {:ok, user} -> # do something with the user
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

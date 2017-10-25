@@ -83,32 +83,4 @@ curl -X PATCH \
   https://tiltify.com/api/v3/causes/35/visibility-options
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const visibilityOptions = await Tiltify.Cause.VisibilityOptions.patch(35, { donate: { visible: false } })
-  // do something with the visibilityOptions
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  visibility_options = Tiltify::Cause::VisibilityOptions.patch(35, donate: { visible: false })
-  # do something with the visibility options
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.VisibilityOptions.patch(35, donate: { visible: false } ) do
-  {:ok, visibility_options} -> # do something with the visibility_options
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

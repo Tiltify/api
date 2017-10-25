@@ -30,32 +30,4 @@ Returns the schedule for the fundraising event with an ID of 35.
 curl https://tiltify.com/api/v3/fundraising-events/35/schedule
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const schedule = await Tiltify.FundraisingEvent.schedule(35)
-  // do something with the schedule
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  schedule = Tiltify::FundraisingEvent.schedule(35)
-  # do something with the schedule
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvent.schedule(35) do
-  {:ok, schedule} -> # do something with the schedule
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

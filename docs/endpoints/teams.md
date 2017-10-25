@@ -46,32 +46,4 @@ Returns a list of teams.
 curl https://tiltify.com/api/v3/teams
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const teams = await Tiltify.Team.index()
-  // do something with the teams
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  teams = Tiltify::Team.index()
-  # do something with the teams
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Team.index() do
-  {:ok, teams} -> # do something with the teams
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

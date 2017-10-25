@@ -66,32 +66,4 @@ Retrieves a single entity of a Fundraising Event with the ID of 34
 curl https://tiltify.com/api/v3/fundraising-events/34
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const fundraisingEvent = await Tiltify.FundraisingEvent.get(34)
-  // do something with the fundraising_event
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  fundraising_event = Tiltify::FundraisingEvent.get(34)
-  # do something with the fundraising_event
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvent.get(34) do
-  {:ok, fundraising_event} -> # do something with the fundraising_event
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

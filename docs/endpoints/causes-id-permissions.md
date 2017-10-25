@@ -62,32 +62,4 @@ Returns a list of permissions for cause with the ID of 42.
 curl https://tiltify.com/api/v3/causes/35/permissions
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const visibilityOptions = await Tiltify.Cause.permissions(35)
-  // do something with the permissions
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  permissions = Tiltify::Cause.permissions(35)
-  # do something with the permissions
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.permissions(35) do
-  {:ok, permissions} -> # do something with the permissions
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

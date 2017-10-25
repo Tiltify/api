@@ -41,32 +41,4 @@ Returns the registration field settings for a fundraising event with an id of 1.
 curl https://tiltify.com/api/v3/fundraising-events/1/registrations
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const registrations = await Tiltify.FundraisingEvent.registrations(1)
-  // do something with the registrations
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  registrations = Tiltify::FundraisingEvent.registrations(1)
-  # do something with the registrations
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvent.registrations(1) do
-  {:ok, registrations} -> # do something with the registrations
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

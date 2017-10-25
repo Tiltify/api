@@ -73,34 +73,6 @@ Returns a single campaign entity with the ID of 42.
 curl https://tiltify.com/api/v3/campaigns/42
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const campaign = await Tiltify.Campaign.get(42)
-  // do something with the campaign
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  campaign = Tiltify::Campaign.get(42)
-  # do something with the campaign
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Campaign.get(42) do
-  {:ok, campaign} -> # do something with the campaign
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}
 
 ---

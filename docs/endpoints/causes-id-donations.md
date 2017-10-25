@@ -38,32 +38,4 @@ Returns the donations for the cause with an ID of 35.
 curl https://tiltify.com/api/v3/causes/35/donations
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const donations = await Tiltify.Cause.donations(35)
-  // do something with the donations
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  donations = Tiltify::Cause.donations(35)
-  # do something with the donations
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.donations(35) do
-  {:ok, donations} -> # do something with the donations
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

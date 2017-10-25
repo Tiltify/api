@@ -156,32 +156,4 @@ expected result and you should instead pass a reference to a user
 curl https://tiltify.com/api/v3/campaigns/campaign-slug/supporting-campaigns
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const campaign = await Tiltify.Campaign.get_supporting_campaigns('campaign-slug')
-  // do something with the campaign
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  campaign = Tiltify::Campaign.get_supporting_campaigns('campaign-slug')
-  # do something with the campaign
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Campaign.get_supporting_campaigns("campaign-slug") do
-  {:ok, campaign} -> # do something with the campaign
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

@@ -43,32 +43,4 @@ Returns a single campaign entity with the ID of 42.
 curl https://tiltify.com/api/v3/causes/35/leaderboards
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const leaderboards = await Tiltify.Cause.leaderboards(35)
-  // do something with the leaderboards
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  leaderboards = Tiltify::Cause.leaderboards(35)
-  # do something with the leaderboards
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.leaderboards(35) do
-  {:ok, leaderboards} -> # do something with the leaderboards
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

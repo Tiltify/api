@@ -37,32 +37,4 @@ Returns a list of challenges with the campaign ID of 42.
 curl https://tiltify.com/api/v3/campaigns/42/challenges
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const challenges = await Tiltify.Campaign.get_challenges(42)
-  // do something with the challenges
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  challenges = Tiltify::Campaign.get_challenges(42)
-  # do something with the challenges
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Campaign.get_challenges(42) do
-  {:ok, challenges} -> # do something with the challenges
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

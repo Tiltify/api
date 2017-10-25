@@ -55,32 +55,4 @@ Retrieves a list of a users campaigns with a user ID of 35.
 curl https://tiltify.com/api/v3/users/35/campaigns
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const campaigns = await Tiltify.User.campaigns(35)
-  // do something with the campaigns
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  campaigns = Tiltify::User.campaigns(35)
-  # do something with the campaigns
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.User.campaigns(35) do
-  {:ok, campaigns} -> # do something with the campaigns
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

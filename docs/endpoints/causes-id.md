@@ -102,32 +102,4 @@ Returns a single cause entity with a slug of cause-slug.
 curl https://tiltify.com/api/v3/causes/cause-slug
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const cause = await Tiltify.Cause.get('cause-slug')
-  // do something with the cause
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  cause = Tiltify::Cause.get('cause-slug')
-  # do something with the cause
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.get("cause-slug") do
-  {:ok, cause} -> # do something with the cause
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

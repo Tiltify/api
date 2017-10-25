@@ -76,32 +76,4 @@ Returns the fundraising events for the cause with an ID of 35.
 curl https://tiltify.com/api/v3/causes/35/fundraising-events
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const fundraisingEvents = await Tiltify.Cause.fundraisingEvents(35)
-  // do something with the fundraisingEvents
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  fundraising_events = Tiltify::Cause.fundraising_events(35)
-  # do something with the fundraising_events
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.fundraising_events(35) do
-  {:ok, fundraising_events} -> # do something with the fundraising_events
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

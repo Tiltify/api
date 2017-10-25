@@ -84,33 +84,4 @@ Returns a single team entity with a slug of derpsquad.
 curl https://tiltify.com/api/v3/teams/derpsquad
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const team = await Tiltify.Team.get('derpsquad')
-  // do something with the team
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  team = Tiltify::Team.get('derpsquad')
-  # do something with the team
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Team.get("derpsquad") do
-  {:ok, team} -> # do something with the team
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}
-

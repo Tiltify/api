@@ -54,32 +54,4 @@ Returns the campaigns for the cause with an ID of 35.
 curl https://tiltify.com/api/v3/causes/35/campaigns
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const campaigns = await Tiltify.Cause.campaigns(35)
-  // do something with the campaigns
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  campaigns = Tiltify::Cause.campaigns(35)
-  # do something with the campaigns
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Cause.campaigns(35) do
-  {:ok, campaigns} -> # do something with the campaigns
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

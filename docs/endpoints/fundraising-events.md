@@ -76,32 +76,4 @@ Returns a list of the first 100 Fundraising Events by default
 curl https://tiltify.com/api/v3/fundraising-events
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const fundraisingEvent = await Tiltify.FundraisingEvent.index()
-  // do something with the fundraising events
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  fundraising_event = Tiltify::FundraisingEvent.index()
-  # do something with the fundraising events
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvent.index() do
-  {:ok, fundraising_event} -> # do something with the fundraising events
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

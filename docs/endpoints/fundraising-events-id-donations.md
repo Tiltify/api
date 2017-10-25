@@ -38,32 +38,4 @@ Returns the donations for the fundraising event with an ID of 35.
 curl https://tiltify.com/api/v3/fundraising-events/35/donations
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const donations = await Tiltify.FundraisingEvent.donations(35)
-  // do something with the donations
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  donations = Tiltify::FundraisingEvent.donations(35)
-  # do something with the donations
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.FundraisingEvent.donations(35) do
-  {:ok, donations} -> # do something with the donations
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}

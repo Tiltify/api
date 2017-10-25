@@ -49,32 +49,4 @@ Returns a list of rewards with the campaign ID of 42.
 curl https://tiltify.com/api/v3/campaigns/42/rewards
 ```
 
-{% sample lang="js" %}
-```js
-try {
-  const rewards = await Tiltify.Campaign.get_rewards(42)
-  // do something with the rewards
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  rewards = Tiltify::Campaign.get_rewards(42)
-  # do something with the rewards
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Campaign.get_rewards(42) do
-  {:ok, rewards} -> # do something with the rewards
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}
