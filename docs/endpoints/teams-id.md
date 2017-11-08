@@ -42,35 +42,6 @@ Returns a single team entity with the ID of 387.
 ```bash
 curl https://tiltify.com/api/v3/teams/387
 ```
-
-{% sample lang="js" %}
-```js
-try {
-  const team = await Tiltify.Team.get(387)
-  // do something with the team
-} catch(error) {
-  // handle error
-}
-```
-
-{% sample lang="ruby" %}
-```ruby
-begin
-  team = Tiltify::Team.get(387)
-  # do something with the team
-rescue Exception => error
-  # handle error
-end
-```
-
-{% sample lang="elixir" %}
-```elixir
-case Tiltify.Team.get(42) do
-  {:ok, team} -> # do something with the team
-  {:error, error} -> # handle error
-end
-```
-
 {% endmethod %}
 
 ---
