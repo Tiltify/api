@@ -1,6 +1,6 @@
 # GET /users/:id
 
-Retrieves a specific user by ID.
+Retrieves a specific user by ID or slug
 
 ```js
 {
@@ -11,13 +11,22 @@ Retrieves a specific user by ID.
     "id": 3,
     "username": "TiltifyUser",
     "slug": "tiltify-user",
-    "thumbnail": {
+    "url": "https://tiltify.com/@tiltify-user"
+    "avatar": {
       "src": "https://asdf.cloudfront.net/asdf.jpg",
-      "alt": "synthesize distributed solutions",
+      "alt": "",
       "width": 200,
       "height": 200
     },
-    "status": "completed"
+    "about": "I'm the best",
+    "totalAmountRaised": 1234.23,
+    "social": {
+      "facebook": null,
+      "twitch": "tiltify",
+      "twitter": null,
+      "website": null,
+      "youtube": null,
+    }
   }
 }
 ```
