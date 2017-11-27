@@ -44,4 +44,12 @@
   * [/users/:id](/endpoints/users-id.md)
   * [/users/:id/campaigns](/endpoints/users-id-campaigns.md)
   * [/users/:id/owned-teams](/endpoints/users-id-owned-teams.md)
+
+### All Entities
+* [Campaigns](/entities/campaign.md)
+* [Causes](/entities/cause.md)
+* [Fundraising Events](/entities/fundraising-event.md)
+* [Poll](/entities/poll.md)
 * [Rewards](/entities/reward.md)
+* [Teams](/entities/team.md)
+* [Users](/entities/user.md)
