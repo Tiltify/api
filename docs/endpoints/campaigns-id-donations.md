@@ -1,6 +1,8 @@
 # GET /campaigns/:id/donations
 
-Retrieves the most recent donations for a campaign in descending order
+Retrieves the most recent donations for a campaign in descending order. An
+object with the minimum required information is shown. There may be a pointer
+to an incentive if it exists.
 
 ```js
 {
@@ -10,19 +12,25 @@ Retrieves the most recent donations for a campaign in descending order
   "data": [
     {
       "id": 21347,
-      "amount": 556.0,
+      "amount": 4.20,
       "name": "Yoda",
-      "donorComment": "Judge me by my size, do you?",
-      "createdAt": 1490328000000
+      "comment": "Judge me by my size, do you?",
+      "completedAt": 1490328000000,
+      "rewardId": 12
+    },
+    {
+      "id": 21342,
+      "amount": 1.00,
+      "name": "Me",
+      "comment": "This is an easy Game",
+      "completedAt": 1490327800000
     },
     // ...
   ],
   "links": {
     "prev": "",
     "next": "",
-    "self": "",
-    "first": "",
-    "last": "",
+    "self": ""
   }
 }
 ```
