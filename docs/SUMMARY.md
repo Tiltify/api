@@ -17,7 +17,6 @@
 * [Causes](/entities/cause.md)
   * [/causes/:id](/endpoints/causes-id.md)
   * [/causes/:id/campaigns](/endpoints/causes-id-campaigns.md)
-  * [/causes/:id/contact](/endpoints/causes-id-contact.md)
   * [/causes/:id/donations](/endpoints/causes-id-donations.md)
   * [/causes/:id/fundraising-events](/endpoints/causes-id-fundraising-events.md)
   * [/causes/:id/leaderboards](/endpoints/causes-id-leaderboards.md)
