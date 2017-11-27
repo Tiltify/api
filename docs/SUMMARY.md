@@ -37,11 +37,13 @@
   * [/teams](/endpoints/teams.md)
   * [/teams/:id](/endpoints/teams-id.md)
   * [/teams/:id/campaigns](/endpoints/teams-id-campaigns.md)
+  * [/teams/:id/campaigns/:id](/endpoints/teams-id-campaigns-id.md)
 * [Users](/entities/user.md)
   * [/user](/endpoints/user.md)
   * [/users](/endpoints/users.md)
   * [/users/:id](/endpoints/users-id.md)
   * [/users/:id/campaigns](/endpoints/users-id-campaigns.md)
+  * [/users/:id/campaigns/:id](/endpoints/users-id-campaigns-id.md)
   * [/users/:id/owned-teams](/endpoints/users-id-owned-teams.md)
 
 ### All Entities
