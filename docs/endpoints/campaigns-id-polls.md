@@ -1,6 +1,6 @@
 # GET /campaigns/:id/polls
 
-Retrieves the polls for a campaign.
+Retrieves the [polls](/entities/poll.md) and their associated options for a campaign.
 
 ```js
 {
@@ -14,16 +14,23 @@ Retrieves the polls for a campaign.
       "active": true,
       "campaignId": 1337,
       "createdAt": 1498169329000,
+      "updatedAt": 1498169329000,
       "options":[
         {
+          "id": 42,
+          "pollId": 47,
           "name":"No",
-          "amount": 9001,
-          "percentage": 100
+          "totalAmountRaised": 50,
+          "createdAt": 1498169329000,
+          "updatedAt": 1498169329000
         },
         {
+          "id": 44,
+          "pollId": 47,
           "name":"Yes",
-          "amount": 0,
-          "percentage": 0
+          "totalAmountRaised": 50,
+          "createdAt": 1498169329000,
+          "updatedAt": 1498169329000
         }
       ]
     },
