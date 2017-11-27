@@ -6,15 +6,23 @@ A user is a member of the site.
 {
   "id": 3,
   "username": "TiltifyUser",
-  "slug": "@tiltify-user",
+  "slug": "tiltify-user",
   "url": "https://tiltify.com/@tiltify-user"
-  "thumbnail": {
+  "avatar": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
+    "alt": "",
     "width": 200,
     "height": 200
   },
-  "status": "completed"
+  "about": "I'm the best",
+  "totalAmountRaised": 1234.23,
+  "social": {
+    "facebook": null,
+    "twitch": "tiltify",
+    "twitter": null,
+    "website": null,
+    "youtube": null,
+  }
 }
 ```
 
@@ -26,5 +34,7 @@ A user is a member of the site.
 |**username**<br>string| The username of the user.
 |**slug**<br>string| The url slug used to route to the user. These are unique for each user.
 |**url**<br>string| An absolute url that will take you to the user page.
-|**thumbnail**<br>image| A users avatar
-|**status**<br>string| A Users registration status
+|**avatar**<br>image| A users avatar
+|**about**<br>string| A few senetences about user
+|**totalAmountRaised**<br>currency| Total amount of money raised by this user (in USD)
+|**social**<br>object| Object describing user's social accounts
