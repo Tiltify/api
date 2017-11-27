@@ -48,6 +48,7 @@
 ### All Entities
 * [Campaigns](/entities/campaign.md)
 * [Causes](/entities/cause.md)
+* [Challenge](/entities/challenge.md)
 * [Fundraising Events](/entities/fundraising-event.md)
 * [Poll](/entities/poll.md)
 * [Rewards](/entities/reward.md)
