@@ -73,10 +73,10 @@ A campaign is the event you create to fundraise for your favorite cause.
 |**originalFundraiserGoal**<br>float| The original goal for the campaign if it has been changed.
 |**fundraiserGoalAmount**<br>float| The current goal for the campaign.
 |**amountRaised**<br>float| The amount of money raised by this campaign.
-|**supportingAmountRaised**<br>float| The amount of money raised by supporting campaign.
+|**supportingAmountRaised**<br>float| The amount of money raised by all supporting campaigns. This number is 0.0 for campaigns without supporters.
 |**totalAmountRaised**<br>float| The amount of money raised by this campaign and all supporting campaigns for this campaign.
-|**startsAt**<br>date| The date of when the campaign starts.
-|**endsAt**<br>date| The date of when the campaign ends.
+|**startsAt**<br>date| The date of when the campaign starts. (at midnight GMT)
+|**endsAt**<br>date| The date of when the campaign ends. (at midnight GMT)
 |**livestream**<br>object| An object representing the current livestream for this campaign
 |**livestream.type**<br>string| Can be one of the following: twitch,youtube,smashcast,mixer,mlg,image
 |**livestream.channel**<br>string| The channel for the livestream
