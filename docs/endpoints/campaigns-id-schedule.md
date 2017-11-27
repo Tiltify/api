@@ -1,6 +1,6 @@
 # GET /campaigns/:id/schedule
 
-Endpoint to retrieve the schedule for a campaign.
+Endpoint to retrieve the [schedule](/entities/schedule.md) for a campaign.
 
 ```js
 {
