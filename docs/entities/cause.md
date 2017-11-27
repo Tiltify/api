@@ -5,43 +5,66 @@ A cause is something.
 ```js
 {
   "id": 35,
-  "name": "St. Jude Children's Research Hospital",
-  "slug": "stjude",
-  "url": "https://stjude.tiltify.com",
+  "name": "Good Cause",
+  "legalName": "Good Cause Inc",
+  "slug": "goodcause",
   "currency": "USD",
-  "about": "* St. Jude Children's Research Hospital is leading the way the\nworld understands, treats and defeats childhood cancer and other\nlife-threatening diseases.  \n* Your support helps ensure that families never receive a bill\nfrom St. Jude for treatment, travel, housing or food -- because all a family\nshould worry about is helping their child live.  \n* St. Jude has helped push the childhood cancer survival rate\nfrom less than 20% when we opened to 80% today. We won't stop until no child\ndies from cancer.",
-  "video": {
-    "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "alt": "synthesize distributed solutions",
-    "width": 640,
-    "height": 360
-  },
+  "about": "We do good stuff",
+  "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "image": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
+    "alt": "",
     "width": 640,
     "height": 360
   },
   "avatar": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
+    "alt": "",
     "width": 64,
     "height": 64
   },
   "logo": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
-    "width": 64,
-    "height": 100
+    "alt": "",
+    "width": 100,
+    "height": 64
   },
   "banner": {
     "src": "https://asdf.cloudfront.net/asdf.jpg",
-    "alt": "synthesize distributed solutions",
+    "alt": "",
     "width": 530,
     "height": 1440
   },
-  "bannerTitle": "St. Jude Children's Research Hospital",
-  "bannerIntro": "Start a fundraising campaign to help us end childhood cancer."
+  "contactEmail": "asdf@example.org",
+  "paypalEmail": "asdf@example.org",
+  "paypalCurrencyCode": "USD",
+  "social": {
+    "twitter": "stjude",
+    "youtube": "",
+    "facebook": "stjude",
+    "instagram": "stjude"
+  },
+  "settings": {
+    "colors": {
+      "background": "#fff",
+      "highlight": "#ce2f40"
+    },
+    "headerIntro": "Start a fundraising campaign to help us do good things.",
+    "headerTitle": "Good Cause",
+    "footerCopyright": "© Copyright 2017. Good Cause Inc",
+    "findOutMoreLink": "https://www.example.com/find-out-more"
+  },
+  "status": "published",
+  "stripeConnected": true,
+  "mailchimpConnected": false,
+  "address": {
+    "addressLine1": "123 Some St",
+    "addressLine2": "",
+    "city": "Houston",
+    "region": "TX",
+    "postalCode": "77008",
+    "country": "US"
+  }
 }
 ```
 
@@ -52,14 +75,10 @@ A cause is something.
 |**id**<br>integer| This is the id of the cause. It is a unique identifier that can be used to always find the cause. It will never change.
 |**name**<br>string| The name of the cause.
 |**slug**<br>string| The url slug used to route to the cause. These are unique for each cause
-|**url**<br>string| An absolute url that will take you to the cause page. This may be on a subdomain.
 |**currency**<br>string| The currency code to describe all amount of money under this cause. This is an ISO 4217 currency code.
 |**about**<br>md-string| A short few paragraphs about the cause.
 |**video**<br>string| The absolute url of the video used in the "about cause" section.
-|**image**<br>string| The absolute url of the image used in the "about cause" section.
-|**avatar**<br>string| The absolute url of the thumbnail used to identify the cause. This is square.
-|**logo**<br>string| The absolute url of the logo used to identify the cause.
-|**bannerSrc**<br>string| The absolute url of the banner used on the cause page.
-|**bannerAlt**<br>string| An image description for the banner.
-|**bannerTitle**<br>string| The title in the banner of the cause page.
-|**bannerIntro**<br>string| The short intro paragraph in the banner of the cause page.
+|**image**<br>image| An image object for the image used in the "about cause" section. It may be null.
+|**avatar**<br>image| An image object of the avatar used to identify the cause. This is square.
+|**logo**<br>image| An image object of the logo used to identify the cause. May be null
+|**banner**<br>image| An image object of the banner used at the top of the cause page.
