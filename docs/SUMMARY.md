@@ -52,5 +52,6 @@
 * [Fundraising Events](/entities/fundraising-event.md)
 * [Poll](/entities/poll.md)
 * [Rewards](/entities/reward.md)
+* [Schedule](/entities/schedule.md)
 * [Teams](/entities/team.md)
 * [Users](/entities/user.md)
