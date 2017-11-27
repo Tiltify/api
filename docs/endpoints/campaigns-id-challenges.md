@@ -1,6 +1,6 @@
 # GET /campaigns/:id/challenges
 
-Retrieves the challenges for a campaign.
+Retrieves the [challenges](/entities/challenge.md) for a campaign.
 
 ```js
 {
@@ -17,7 +17,8 @@ Retrieves the challenges for a campaign.
       "activatesOn": 1498169329000,
       "campaignId": 231,
       "endsAt": 1505762373000,
-      "createdAt": 1498232189000
+      "createdAt": 1498232189000,
+      "updatedAt": 1498232189000
     },
     {
       // ...
