@@ -1,6 +1,7 @@
 ### Topics
 * [Introduction](README.md)
 * [Authentication](/topics/authentication.md)
+* [SDKs](/topics/sdks.md)
 * [Errors](/topics/errors.md)
 * [Pagination](/topics/pagination.md)
 

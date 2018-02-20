@@ -8,13 +8,13 @@ This may change in a future api version.
 
 ## Oauth
 
-OAuth Authorize URL
+OAuth2 Authorize URL
 
 ```
 https://tiltify.com/oauth/authorize
 ```
 
-OAuth Token URL
+OAuth2 Token URL
 
 ```
 https://tiltify.com/oauth/token
