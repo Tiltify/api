@@ -7,7 +7,7 @@ anything for your stream.
 
 | Version | Link | Sunset Date |
 | :--: | :--: | :--: |
-| 3 | [Docs](/) | Active |
+| 3 | [Docs](https://tiltify.github.io/api) | Active |
 | 2 | [Docs](http://info.tiltify.com/knowledgebase/articles/732651-api-documentation-campaigns-v2) | mid-2018 / TBD |
 
 ## Issues

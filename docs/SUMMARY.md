@@ -46,6 +46,7 @@
   * [/users/:id/campaigns](/endpoints/users-id-campaigns.md)
   * [/users/:id/campaigns/:id](/endpoints/users-id-campaigns-id.md)
   * [/users/:id/owned-teams](/endpoints/users-id-owned-teams.md)
+  * [/users/:id/teams](/endpoints/users-id-teams.md)
 
 ### All Entities
 * [Campaigns](/entities/campaign.md)
