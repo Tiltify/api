@@ -1,6 +1,6 @@
 # GET /users/:id/teams
 
-Retrieves the teams owned by a specific user.
+Returns an array of teams a user belongs to
 
 ```js
 {
