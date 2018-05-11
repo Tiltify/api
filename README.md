@@ -10,6 +10,8 @@ anything for your stream.
 | 3 | [Docs](https://tiltify.github.io/api) | Active |
 | 2 | [Docs](http://info.tiltify.com/knowledgebase/articles/732651-api-documentation-campaigns-v2) | mid-2018 / TBD |
 
+# [Getting Started](/topics/getting-started.md)
+
 ## Issues
 If there is a mismatch in the documentation for the api or you have any problems, please open an issue at:
 https://github.com/tiltify/api
