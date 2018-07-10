@@ -8,7 +8,6 @@
 
 ### Resources
 * [Campaigns](/entities/campaign.md)
-  * [/campaigns](/endpoints/campaigns.md)
   * [/campaigns/:id](/endpoints/campaigns-id.md)
   * [/campaigns/:id/donations](/endpoints/campaigns-id-donations.md)
   * [/campaigns/:id/rewards](/endpoints/campaigns-id-rewards.md)
