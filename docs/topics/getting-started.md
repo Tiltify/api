@@ -14,7 +14,7 @@ takes a few moments.
 Create an OAuth application. If you don't plan on using OAuth2, just use
 `https://example.com` as the redirect URI.
 
-[Create Application](https://tiltify.com/dashboard/account/connections/new)
+[Create Application](https://tiltify.com/@me/dashboard/account/apps/create)
 
 ## 3. Begin Making Requests.
 
