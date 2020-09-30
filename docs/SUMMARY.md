@@ -39,7 +39,6 @@
   * [/teams/:id/campaigns/:id](/endpoints/teams-id-campaigns-id.md)
 * [Users](/entities/user.md)
   * [/user](/endpoints/user.md)
-  * [/users](/endpoints/users.md)
   * [/users/:id](/endpoints/users-id.md)
   * [/users/:id/campaigns](/endpoints/users-id-campaigns.md)
   * [/users/:id/campaigns/:id](/endpoints/users-id-campaigns-id.md)
