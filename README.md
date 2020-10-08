@@ -17,11 +17,14 @@ If there is a mismatch in the documentation for the api or you have any problems
 https://github.com/tiltify/api
 
 
+## NOTE
+** DONT USE NPM IT BREAKS THINGS, USE YARN**
+
 ## Development
 
 ```
 yarn install
-npm start
+yarn start
 ```
 
-To publish to Github Pages, run ```npm run docs:publish```
+To publish to Github Pages, run ```yarn run docs:publish```
