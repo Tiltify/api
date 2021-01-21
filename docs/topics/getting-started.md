@@ -11,10 +11,8 @@ takes a few moments.
 
 ## 2. Create an OAuth Application.
 
-Create an OAuth application. If you don't plan on using OAuth2, just use
+To create an Oauth application, start by [going to your dashboard](https://dashboard.tiltify.com/), clicking on the grid menu icon, clicking "My account", going to the "Connected accounts" tab, and then clicking "Your applications" on the side. If you don't plan on using OAuth2, just use
 `https://example.com` as the redirect URI.
-
-[Create Application](https://tiltify.com/@me/dashboard/account/apps/create)
 
 ## 3. Begin Making Requests.
 
