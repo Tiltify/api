@@ -5,7 +5,9 @@ This will walk you through the steps to get started with using our API.
 ## 1. Create a Tiltify account.
 
 You need a Tiltify account to access our API. Creating one is free, and only
-takes a few moments.
+takes a few moments. Once you create an account you must confirm your email as well as upgrade
+to a fundraiser account.  This can be done by clicking on the banner in the user dashboard or clicking 
+on become a fundraiser in the 9 button nav.
 
 [Sign Up](https://tiltify.com/users/sign_up)
 
