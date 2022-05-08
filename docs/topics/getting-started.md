@@ -18,7 +18,7 @@ To create an Oauth application, start by [going to your dashboard](https://dashb
 
 ## 3. Begin Making Requests.
 
-We provide Applciation Access Tokens for ease of use. Just start by making
+We provide Application Access Tokens for ease of use. Just start by making
 requests, and adding your access_token to the Authorization header.
 
 ```
