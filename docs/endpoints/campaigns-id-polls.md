@@ -1,3 +1,10 @@
+>### Deprecation Notice
+>Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5
+
+>[V5 Api Documentation](https://v5api.tiltify.com/api/public)
+
+-----
+
 # GET /campaigns/:id/polls
 
 Retrieves the [polls](/entities/poll.md) and their associated options for a campaign.

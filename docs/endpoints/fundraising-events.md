@@ -1,3 +1,10 @@
+>### Deprecation Notice
+>Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5
+
+>[V5 Api Documentation](https://v5api.tiltify.com/api/public)
+
+-----
+
 # /fundraising-events
 
 Retrieves a paginated array of 100 Fundraising Events by default

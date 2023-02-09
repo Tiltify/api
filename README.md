@@ -1,3 +1,10 @@
+>### Deprecation Notice
+>Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5
+
+>[V5 Api Documentation](https://v5api.tiltify.com/api/public)
+
+-----
+
 # Tiltify API V3 Documentation
 
 Our JSON API powers our entire website, and is available to be used for you to build

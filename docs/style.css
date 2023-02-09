@@ -20,3 +20,9 @@ code.lang-js {
 .book-with-summary .book-header {
   left: 350px;
 }
+
+blockquote {
+  background: #ff6969;
+  color: white !important;
+}
+

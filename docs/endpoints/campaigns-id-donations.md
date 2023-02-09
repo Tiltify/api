@@ -1,3 +1,10 @@
+>### Deprecation Notice
+>Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5
+
+>[V5 Api Documentation](https://v5api.tiltify.com/api/public)
+
+-----
+
 # GET /campaigns/:id/donations
 
 Retrieves the most recent donations for a campaign in descending order. An
