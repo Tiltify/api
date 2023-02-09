@@ -14,7 +14,8 @@ anything for your stream.
 
 | Version |                 Link                  | Sunset Date |
 | :-----: | :-----------------------------------: | :---------: |
-|    3    | [Docs](https://tiltify.github.io/api) |   Active    |
+|    3    | [Docs](https://tiltify.github.io/api) |   7/1/2023  |
+|    5    | [Docs](https://v5api.tiltify.com/api/public) |   Active    |
 
 # [Getting Started](/topics/getting-started.md)
 
