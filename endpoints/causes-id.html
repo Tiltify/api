@@ -1,0 +1,1018 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>/causes/:id · Tiltify API V3 Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-api/theme-api.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../style.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="causes-id-campaigns.html" />
+    
+    
+    <link rel="prev" href="../entities/cause.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Topics</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../topics/getting-started.html">
+            
+                <a href="../topics/getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../topics/authentication.html">
+            
+                <a href="../topics/authentication.html">
+            
+                    
+                    Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../topics/sdks.html">
+            
+                <a href="../topics/sdks.html">
+            
+                    
+                    SDKs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../topics/errors.html">
+            
+                <a href="../topics/errors.html">
+            
+                    
+                    Errors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../topics/pagination.html">
+            
+                <a href="../topics/pagination.html">
+            
+                    
+                    Pagination
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Resources</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../entities/campaign.html">
+            
+                <a href="../entities/campaign.html">
+            
+                    
+                    Campaigns
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="campaigns-id.html">
+            
+                <a href="campaigns-id.html">
+            
+                    
+                    /campaigns/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="campaigns-id-donations.html">
+            
+                <a href="campaigns-id-donations.html">
+            
+                    
+                    /campaigns/:id/donations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="campaigns-id-rewards.html">
+            
+                <a href="campaigns-id-rewards.html">
+            
+                    
+                    /campaigns/:id/rewards
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="campaigns-id-polls.html">
+            
+                <a href="campaigns-id-polls.html">
+            
+                    
+                    /campaigns/:id/polls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="campaigns-id-challenges.html">
+            
+                <a href="campaigns-id-challenges.html">
+            
+                    
+                    /campaigns/:id/challenges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="campaigns-id-schedule.html">
+            
+                <a href="campaigns-id-schedule.html">
+            
+                    
+                    /campaigns/:id/schedule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="campaigns-id-supporting-campaigns.html">
+            
+                <a href="campaigns-id-supporting-campaigns.html">
+            
+                    
+                    /campaigns/:id/supporting-campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../entities/cause.html">
+            
+                <a href="../entities/cause.html">
+            
+                    
+                    Causes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="causes-id.html">
+            
+                <a href="causes-id.html">
+            
+                    
+                    /causes/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="causes-id-campaigns.html">
+            
+                <a href="causes-id-campaigns.html">
+            
+                    
+                    /causes/:id/campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="causes-id-fundraising-events.html">
+            
+                <a href="causes-id-fundraising-events.html">
+            
+                    
+                    /causes/:id/fundraising-events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="causes-id-leaderboards.html">
+            
+                <a href="causes-id-leaderboards.html">
+            
+                    
+                    /causes/:id/leaderboards
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="causes-id-visibility-options.html">
+            
+                <a href="causes-id-visibility-options.html">
+            
+                    
+                    /causes/:id/visibility-options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="causes-id-permissions.html">
+            
+                <a href="causes-id-permissions.html">
+            
+                    
+                    /causes/:id/permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../entities/fundraising-event.html">
+            
+                <a href="../entities/fundraising-event.html">
+            
+                    
+                    Fundraising Events
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="fundraising-events.html">
+            
+                <a href="fundraising-events.html">
+            
+                    
+                    /fundraising-events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="fundraising-events-id.html">
+            
+                <a href="fundraising-events-id.html">
+            
+                    
+                    /fundraising-events/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="fundraising-events-id-campaigns.html">
+            
+                <a href="fundraising-events-id-campaigns.html">
+            
+                    
+                    /fundraising-events/:id/campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="fundraising-events-id-incentives.html">
+            
+                <a href="fundraising-events-id-incentives.html">
+            
+                    
+                    /fundraising-events/:id/incentives
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="fundraising-events-id-leaderboards.html">
+            
+                <a href="fundraising-events-id-leaderboards.html">
+            
+                    
+                    /fundraising-events/:id/leaderboards
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="fundraising-events-id-registrations.html">
+            
+                <a href="fundraising-events-id-registrations.html">
+            
+                    
+                    /fundraising-events/:id/registrations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="fundraising-events-id-registration-fields.html">
+            
+                <a href="fundraising-events-id-registration-fields.html">
+            
+                    
+                    /fundraising-events/:id/registration-fields
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="fundraising-events-id-schedule.html">
+            
+                <a href="fundraising-events-id-schedule.html">
+            
+                    
+                    /fundraising-events/:id/schedule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.9" data-path="fundraising-events-id-visibility-options.html">
+            
+                <a href="fundraising-events-id-visibility-options.html">
+            
+                    
+                    /fundraising-events/:id/visibility-options
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../entities/team.html">
+            
+                <a href="../entities/team.html">
+            
+                    
+                    Teams
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="teams.html">
+            
+                <a href="teams.html">
+            
+                    
+                    /teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="teams-id.html">
+            
+                <a href="teams-id.html">
+            
+                    
+                    /teams/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="teams-id-campaigns.html">
+            
+                <a href="teams-id-campaigns.html">
+            
+                    
+                    /teams/:id/campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="teams-id-campaigns-id.html">
+            
+                <a href="teams-id-campaigns-id.html">
+            
+                    
+                    /teams/:id/campaigns/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../entities/user.html">
+            
+                <a href="../entities/user.html">
+            
+                    
+                    Users
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="user.html">
+            
+                <a href="user.html">
+            
+                    
+                    /user
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="users-id.html">
+            
+                <a href="users-id.html">
+            
+                    
+                    /users/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="users-id-campaigns.html">
+            
+                <a href="users-id-campaigns.html">
+            
+                    
+                    /users/:id/campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="users-id-campaigns-id.html">
+            
+                <a href="users-id-campaigns-id.html">
+            
+                    
+                    /users/:id/campaigns/:id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.5" data-path="users-id-owned-teams.html">
+            
+                <a href="users-id-owned-teams.html">
+            
+                    
+                    /users/:id/owned-teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" data-path="users-id-teams.html">
+            
+                <a href="users-id-teams.html">
+            
+                    
+                    /users/:id/teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">All Entities</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../entities/campaign.html">
+            
+                <a href="../entities/campaign.html">
+            
+                    
+                    Campaigns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../entities/cause.html">
+            
+                <a href="../entities/cause.html">
+            
+                    
+                    Causes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../entities/challenge.html">
+            
+                <a href="../entities/challenge.html">
+            
+                    
+                    Challenge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../entities/fundraising-event.html">
+            
+                <a href="../entities/fundraising-event.html">
+            
+                    
+                    Fundraising Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../entities/poll.html">
+            
+                <a href="../entities/poll.html">
+            
+                    
+                    Poll
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../entities/reward.html">
+            
+                <a href="../entities/reward.html">
+            
+                    
+                    Rewards
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../entities/schedule.html">
+            
+                <a href="../entities/schedule.html">
+            
+                    
+                    Schedule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../entities/team.html">
+            
+                <a href="../entities/team.html">
+            
+                    
+                    Teams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../entities/user.html">
+            
+                <a href="../entities/user.html">
+            
+                    
+                    Users
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >/causes/:id</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <blockquote>
+<h3 id="deprecation-notice">Deprecation Notice</h3>
+<p>Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5</p>
+<p><a href="https://v5api.tiltify.com/api/public" target="_blank">V5 Api Documentation</a></p>
+</blockquote>
+<hr>
+<h1 id="get-causesid">GET /causes/:id</h1>
+<p>Retreives a single cause given an identifier.</p>
+<pre><code class="lang-js">{
+  <span class="hljs-string">&quot;meta&quot;</span>: {
+    <span class="hljs-string">&quot;status&quot;</span>: <span class="hljs-number">200</span>
+  },
+  <span class="hljs-string">&quot;data&quot;</span>: {
+    <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-number">35</span>,
+    <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Good Cause&quot;</span>,
+    <span class="hljs-string">&quot;legalName&quot;</span>: <span class="hljs-string">&quot;Good Cause Inc&quot;</span>,
+    <span class="hljs-string">&quot;slug&quot;</span>: <span class="hljs-string">&quot;goodcause&quot;</span>,
+    <span class="hljs-string">&quot;currency&quot;</span>: <span class="hljs-string">&quot;USD&quot;</span>,
+    <span class="hljs-string">&quot;about&quot;</span>: <span class="hljs-string">&quot;We do good stuff&quot;</span>,
+    <span class="hljs-string">&quot;video&quot;</span>: <span class="hljs-string">&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;</span>,
+    <span class="hljs-string">&quot;image&quot;</span>: {
+      <span class="hljs-string">&quot;src&quot;</span>: <span class="hljs-string">&quot;https://asdf.cloudfront.net/asdf.jpg&quot;</span>,
+      <span class="hljs-string">&quot;alt&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;width&quot;</span>: <span class="hljs-number">640</span>,
+      <span class="hljs-string">&quot;height&quot;</span>: <span class="hljs-number">360</span>
+    },
+    <span class="hljs-string">&quot;avatar&quot;</span>: {
+      <span class="hljs-string">&quot;src&quot;</span>: <span class="hljs-string">&quot;https://asdf.cloudfront.net/asdf.jpg&quot;</span>,
+      <span class="hljs-string">&quot;alt&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;width&quot;</span>: <span class="hljs-number">64</span>,
+      <span class="hljs-string">&quot;height&quot;</span>: <span class="hljs-number">64</span>
+    },
+    <span class="hljs-string">&quot;logo&quot;</span>: {
+      <span class="hljs-string">&quot;src&quot;</span>: <span class="hljs-string">&quot;https://asdf.cloudfront.net/asdf.jpg&quot;</span>,
+      <span class="hljs-string">&quot;alt&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;width&quot;</span>: <span class="hljs-number">100</span>,
+      <span class="hljs-string">&quot;height&quot;</span>: <span class="hljs-number">64</span>
+    },
+    <span class="hljs-string">&quot;banner&quot;</span>: {
+      <span class="hljs-string">&quot;src&quot;</span>: <span class="hljs-string">&quot;https://asdf.cloudfront.net/asdf.jpg&quot;</span>,
+      <span class="hljs-string">&quot;alt&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;width&quot;</span>: <span class="hljs-number">530</span>,
+      <span class="hljs-string">&quot;height&quot;</span>: <span class="hljs-number">1440</span>
+    },
+    <span class="hljs-string">&quot;contactEmail&quot;</span>: <span class="hljs-string">&quot;asdf@example.org&quot;</span>,
+    <span class="hljs-string">&quot;paypalEmail&quot;</span>: <span class="hljs-string">&quot;asdf@example.org&quot;</span>,
+    <span class="hljs-string">&quot;paypalCurrencyCode&quot;</span>: <span class="hljs-string">&quot;USD&quot;</span>,
+    <span class="hljs-string">&quot;social&quot;</span>: {
+      <span class="hljs-string">&quot;twitter&quot;</span>: <span class="hljs-string">&quot;stjude&quot;</span>,
+      <span class="hljs-string">&quot;youtube&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;facebook&quot;</span>: <span class="hljs-string">&quot;stjude&quot;</span>,
+      <span class="hljs-string">&quot;instagram&quot;</span>: <span class="hljs-string">&quot;stjude&quot;</span>
+    },
+    <span class="hljs-string">&quot;settings&quot;</span>: {
+      <span class="hljs-string">&quot;colors&quot;</span>: {
+        <span class="hljs-string">&quot;background&quot;</span>: <span class="hljs-string">&quot;#fff&quot;</span>,
+        <span class="hljs-string">&quot;highlight&quot;</span>: <span class="hljs-string">&quot;#ce2f40&quot;</span>
+      },
+      <span class="hljs-string">&quot;headerIntro&quot;</span>: <span class="hljs-string">&quot;Start a fundraising campaign to help us do good things.&quot;</span>,
+      <span class="hljs-string">&quot;headerTitle&quot;</span>: <span class="hljs-string">&quot;Good Cause&quot;</span>,
+      <span class="hljs-string">&quot;footerCopyright&quot;</span>: <span class="hljs-string">&quot;&#xA9; Copyright 2017. Good Cause Inc&quot;</span>,
+      <span class="hljs-string">&quot;findOutMoreLink&quot;</span>: <span class="hljs-string">&quot;https://www.example.com/find-out-more&quot;</span>
+    },
+    <span class="hljs-string">&quot;status&quot;</span>: <span class="hljs-string">&quot;published&quot;</span>,
+    <span class="hljs-string">&quot;stripeConnected&quot;</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">&quot;mailchimpConnected&quot;</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">&quot;address&quot;</span>: {
+      <span class="hljs-string">&quot;addressLine1&quot;</span>: <span class="hljs-string">&quot;123 Some St&quot;</span>,
+      <span class="hljs-string">&quot;addressLine2&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;city&quot;</span>: <span class="hljs-string">&quot;Houston&quot;</span>,
+      <span class="hljs-string">&quot;region&quot;</span>: <span class="hljs-string">&quot;TX&quot;</span>,
+      <span class="hljs-string">&quot;postalCode&quot;</span>: <span class="hljs-string">&quot;77008&quot;</span>,
+      <span class="hljs-string">&quot;country&quot;</span>: <span class="hljs-string">&quot;US&quot;</span>
+    }
+  }
+}
+</code></pre>
+<h2 id="examples">Examples</h2>
+<div class="api-method"><div class="api-method-definition"><h3 id="get-causes42">GET /causes/42</h3>
+<p>Returns a single cause entity with the ID of 42.</p>
+</div><div class="api-method-code"><div class="api-method-sample" data-lang="curl" data-name="CURL"><pre><code class="lang-bash">curl https://tiltify.com/api/v3/causes/42
+</code></pre>
+</div></div></div>
+
+<hr>
+<div class="api-method"><div class="api-method-definition"><h3 id="get-causecause-slug">GET /cause/cause-slug</h3>
+<p>Returns a single cause entity with a slug of cause-slug.</p>
+</div><div class="api-method-code"><div class="api-method-sample" data-lang="curl" data-name="CURL"><pre><code class="lang-bash">curl https://tiltify.com/api/v3/causes/cause-slug
+</code></pre>
+</div></div></div>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"/causes/:id","level":"2.2.1","depth":2,"next":{"title":"/causes/:id/campaigns","level":"2.2.2","depth":2,"path":"endpoints/causes-id-campaigns.md","ref":"endpoints/causes-id-campaigns.md","articles":[]},"previous":{"title":"Causes","level":"2.2","depth":1,"path":"entities/cause.md","ref":"entities/cause.md","articles":[{"title":"/causes/:id","level":"2.2.1","depth":2,"path":"endpoints/causes-id.md","ref":"endpoints/causes-id.md","articles":[]},{"title":"/causes/:id/campaigns","level":"2.2.2","depth":2,"path":"endpoints/causes-id-campaigns.md","ref":"endpoints/causes-id-campaigns.md","articles":[]},{"title":"/causes/:id/fundraising-events","level":"2.2.3","depth":2,"path":"endpoints/causes-id-fundraising-events.md","ref":"endpoints/causes-id-fundraising-events.md","articles":[]},{"title":"/causes/:id/leaderboards","level":"2.2.4","depth":2,"path":"endpoints/causes-id-leaderboards.md","ref":"endpoints/causes-id-leaderboards.md","articles":[]},{"title":"/causes/:id/visibility-options","level":"2.2.5","depth":2,"path":"endpoints/causes-id-visibility-options.md","ref":"endpoints/causes-id-visibility-options.md","articles":[]},{"title":"/causes/:id/permissions","level":"2.2.6","depth":2,"path":"endpoints/causes-id-permissions.md","ref":"endpoints/causes-id-permissions.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","github","theme-api"],"root":"docs","styles":{"website":"./style.css"},"pluginsConfig":{"github":{"url":"https://github.com/tiltify/api"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-api":{"languages":[],"split":true,"theme":"light"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Tiltify API V3 Documentation","gitbook":"3.2.2"},"file":{"path":"endpoints/causes-id.md","mtime":"2023-05-18T19:41:00.022Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2023-05-18T19:42:54.101Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-api/theme-api.js"></script>
+        
+    
+
+    </body>
+</html>
+
