@@ -1,7 +1,7 @@
 >### Deprecation Notice
 >Api V3 is being deprecated on July 1st, 2023. Please consider updating to V5
 
->[V5 Api Documentation](https://v5api.tiltify.com/api/public)
+>[V5 Api Documentation](https://developers.tiltify.com)
 
 -----
 
@@ -15,7 +15,7 @@ anything for your stream.
 | Version |                 Link                  | Sunset Date |
 | :-----: | :-----------------------------------: | :---------: |
 |    3    | [Docs](https://tiltify.github.io/api) |   7/1/2023  |
-|    5    | [Docs](https://v5api.tiltify.com/api/public) |   Active    |
+|    5    | [Docs](https://developers.tiltify.com) |   Active    |
 
 # [Getting Started](/topics/getting-started.md)
 
